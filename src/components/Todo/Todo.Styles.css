@@ -1,0 +1,37 @@
+.todo-list{
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    padding-left:20px;
+}
+
+.todo{
+    width: 90%;
+    color: #fff;
+    font-size: 15px;
+    padding: 4px 20px;
+    border-radius: 9px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    background-color: rgba(0, 0, 0, 0.422);
+}
+
+.todo p{
+    display: inline-block;
+    width: 83%;
+}
+
+.todo .btn-edit{
+    background-color: rgb(0, 157, 255);
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 7px;
+}
+
+.todo .btn-delete{
+    background-color: red;
+    display: inline-block;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 7px;
+}
